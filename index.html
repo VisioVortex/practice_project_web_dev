@@ -9,58 +9,104 @@
     <nav>
         <ul>
             <li>
-                <a href="index.html" target="_blank">Home</a>
+                <a href="#intro">Home</a>
             </li>
         </ul>
         <ul>
             <li>
-                <a href="about.html" target="_blank">About Me</a>
+                <a href="#about">About Me</a>
             </li>
         </ul>
         <ul>
             <li>
-                <a href="contact.html" target="_blank">Contact</a>
+                <a href="#contact">Contact</a>
+            </li>
+        </ul>
+                <ul>
+            <li>
+                <a href="#skills">Skills</a>
+            </li>
+        </ul>
+                <ul>
+            <li>
+                <a href="#projects">Projects</a>
             </li>
         </ul>
     </nav>
     <!--Intro section-->
-    <header>
+    <header id="intro">
         <h1>Md Mainul Islam Rabby</h1>
+        <img src="Images/image.jpg" alt="MD Mainul Islam Rabby" height="150">
         <p>Web Developer & Designer</p>
         <p>I build modern, responsive, and secure websites using clean code and creative design.</p>
         <hr/>
     </header>
     <!--About me section-->
-    <section>
+    <section id="about">
         <h2>About Me</h2>
         <p><strong>Exprience: </strong>5 years of exprience in web development</p>
         <p><strong>Education: </strong>Bsc. in CSE</p>
     </section>
     <!--Slills section-->
-    <section>
+    <section id="skills">
         <h2>Skills</h2>
-        <ol>
-            <li>HTML</li>
-            <li>CSS</li>
-            <li>JavaScript
-                <ul>
-                    <li>React</li>
-                    <li>Node.js</li>
-                </ul>
-            </li>
-            <li>Python
-                <ul>
-                    <li>Django</li>
-                    <li>Flask</li>
-                </ul>
-            </li>
-            <li>SQL</li>
-            <li>Git</li>
-            <li>Responsive Design</li>
-        </ol>
+        <table border="1" cellpadding="5" cellspacing="0">
+           <thead>
+            <tr>
+                <th>Skill</th>
+                <th>Proficiency</th>
+            </tr>
+           </thead>
+           <tbody>
+            <tr>
+                <td>HTML</td>
+                <td>Expert</td>
+            </tr>
+            <tr>
+                <td>CSS</td>
+                <td>Expert</td>
+            </tr>
+            <tr>
+                <td>JavaScript</td>
+                <td>Advanced</td>
+            </tr>
+            <tr>
+                <td>Python</td>
+                <td>Intermediate</td>
+            </tr>
+            <tr>
+                <td>SQL</td>
+                <td>Intermediate</td>
+            </tr>
+            <tr>
+                <td>Git</td>
+                <td>Advanced</td>
+            </tr>
+            <tr>
+                <td>Responsive Design</td>
+                <td>Expert</td>
+            </tr>
+            <tr>
+                <td>React</td>
+                <td>Advanced</td>
+            </tr>
+            <tr>
+                <td>Django</td>
+                <td>Intermediate</td>
+            </tr>
+            <tr>
+                <td>Node.js</td>
+                <td>Intermediate</td>
+            </tr>
+            <tr>
+                <td>Flask</td>
+                <td>Intermediate</td>
+            </tr>
+           </tbody> 
+        </table>
     </section>
     <!--Project section-->
-    <section>
+    <section id="projects">
         <h2>Projects</h2>
         <ol>
             <li><a href="https://github.com/VisioVortex">Portfolio Website</a></li>
@@ -69,6 +115,23 @@
         </ol>
     </section>
     <!--Contacts section-->
+    <section id="contact">
+        <h2>Contact Me</h2>
+        <div>
+            <label for="name">Name : </label>
+            <input type="text" id="name" name="name" required>
+        </div>
+        <div>
+            <label for="email">Email : </label>
+            <input type="email" id="email" name="email" required>
+        </div>
+        <div>
+            <label for="message">Message : </label>
+            <textarea id="message" name="message" cols="10" rows="5" required></textarea>
+        </div>
+        <button type="submit">Submit</button>
+        <button type="reset">Clear</button>
+    </section>
     <!--Footer section-->
     <footer>
         <p>© 2026 My Portfolio. All rights reserved By Rabby</p>
