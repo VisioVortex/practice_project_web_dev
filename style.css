@@ -1,0 +1,42 @@
+:root{
+    --primary-color: #4caf50;
+    --secondary-color: #fff;
+    --background-color: #f4f4f4;
+}
+body{
+    background-color: var(--background-color);
+    color: #333;
+}
+h1,h2{
+    color: var(--primary-color);
+}
+/* button */
+button{
+    background-color: var(--primary-color);
+    color: var(--secondary-color);
+}
+button:hover{
+    background-color: #45a049;
+}
+/* buttton end */
+input, select, textarea{}
+/* header stats here */
+header{
+    background-color: var(--primary-color);
+    color: var(--secondary-color);
+}
+nav ul {}
+nav ul li {}
+nav ul li a {
+    color: var(--secondary-color);
+}
+/* header ends here */
+/* main starts here */
+main {}
+/* main ends here */
+/* footer starts here */
+footer{
+    background-color: var(--primary-color);
+    color: var(--secondary-color);
+}
+/* footer ends here */
