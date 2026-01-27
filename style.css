@@ -2,11 +2,15 @@
     --primary-color: #4caf50;
     --secondary-color: #fff;
     --background-color: #f4f4f4;
+    --card-background-color: #fff;
+    --card-shadow: rgba(0, 0, 0, 0.2);
 }
 body{
     background-color: var(--background-color);
     color: #333;
     font-family: 'Roboto', sans-serif;
+    margin: 0;
+    padding: 0;
 }
 ul{
     list-style: none;
@@ -14,25 +18,47 @@ ul{
 h1,h2{
     color: var(--primary-color);
 }
+.card{
+    background-color: var(--card-background-color);
+    border-radius: 0.5rem;
+    margin: 1.2rem;
+    padding: 1.2rem;
+    box-shadow: 0 4px 8px 0 var(--card-shadow);
+}
 /* button */
 button{
     background-color: var(--primary-color);
     color: var(--secondary-color);
+    margin: 0.8rem 0;
+    padding: 0.8rem 1.6rem;
+    border-radius: 0.5rem;
+    cursor: pointer;
 }
 button:hover{
     background-color: #45a049;
 }
 /* buttton end */
-input, select, textarea{}
+input, select, textarea{
+    width: 100%;
+    margin: 0.8rem 0;
+    padding: 0.5rem;
+    border-radius: 0.5rem;
+    box-sizing: border-box;
+}
 /* header stats here */
 header{
     background-color: var(--primary-color);
     color: var(--secondary-color);
     text-align: center;
+    padding: 1.5rem 0;
 }
 nav ul {
+    padding: 0;
+    margin: 0;
 }
-nav ul li {}
+nav ul li {
+    margin: 0 0.8rem;
+}
 nav ul li a {
     color: var(--secondary-color);
     text-decoration: none;
@@ -40,9 +66,20 @@ nav ul li a {
 }
 /* header ends here */
 /* main starts here */
-main {}
-table{}
-table, th, td {}
+main {
+    width: 80%;
+    margin: auto;
+    padding: 1.2rem;
+}
+table{
+    width: 100%;
+    border-collapse: collapse;
+    margin: 1.2rem 0;
+}
+table, th, td {
+    border: 1px solid #ddd;
+    padding: 0.5rem;
+}
 th{
     background-color: #f2f2f2;
 }
@@ -51,10 +88,14 @@ th{
 footer{
     background-color: var(--primary-color);
     color: var(--secondary-color);
+    text-align: center;
+    width: 100%;
+    padding: 0.5rem 0;
 }
 .social-media a{
     color: var(--secondary-color);
     font-size: 1.5rem;
     text-decoration: none;
+    margin: 0 0.5rem;
 }
 /* footer ends here */
