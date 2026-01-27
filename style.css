@@ -6,6 +6,10 @@
 body{
     background-color: var(--background-color);
     color: #333;
+    font-family: 'Roboto', sans-serif;
+}
+ul{
+    list-style: none;
 }
 h1,h2{
     color: var(--primary-color);
@@ -24,19 +28,33 @@ input, select, textarea{}
 header{
     background-color: var(--primary-color);
     color: var(--secondary-color);
+    text-align: center;
 }
-nav ul {}
+nav ul {
+}
 nav ul li {}
 nav ul li a {
     color: var(--secondary-color);
+    text-decoration: none;
+    font-weight: bold;
 }
 /* header ends here */
 /* main starts here */
 main {}
+table{}
+table, th, td {}
+th{
+    background-color: #f2f2f2;
+}
 /* main ends here */
 /* footer starts here */
 footer{
     background-color: var(--primary-color);
     color: var(--secondary-color);
+}
+.social-media a{
+    color: var(--secondary-color);
+    font-size: 1.5rem;
+    text-decoration: none;
 }
 /* footer ends here */
