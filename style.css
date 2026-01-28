@@ -83,6 +83,9 @@ table, th, td {
 th{
     background-color: #f2f2f2;
 }
+#intro{
+    background-image: url(Images/cover.jpg);
+}
 /* main ends here */
 /* footer starts here */
 footer{
