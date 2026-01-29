@@ -51,10 +51,14 @@ header{
     color: var(--secondary-color);
     text-align: center;
     padding: 1.5rem 0;
+    position: sticky;
+    top: 0;
 }
 nav ul {
     padding: 0;
     margin: 0;
+    display: flex;
+    justify-content: center;
 }
 nav ul li {
     margin: 0 0.8rem;
@@ -85,6 +89,13 @@ th{
 }
 #intro{
     background-image: url(Images/cover.jpg);
+    height: 80vh;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.intro_description{
+    color: var(--secondary-color);
 }
 /* main ends here */
 /* footer starts here */
@@ -94,6 +105,8 @@ footer{
     text-align: center;
     width: 100%;
     padding: 0.5rem 0;
+    /* position: fixed;
+    bottom: 0; */
 }
 .social-media a{
     color: var(--secondary-color);
