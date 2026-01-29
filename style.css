@@ -107,10 +107,21 @@ footer{
     padding: 0.5rem 0;
     /* position: fixed;
     bottom: 0; */
+    display: flex;
+    justify-content: space-evenly;
+    gap: 0.5rem;
+}
+.social-media ul {
+    display: flex;
+    justify-content: left;
+    gap: 0.5rem;
+}
+.social-media h3{
+    text-align: center;
 }
 .social-media a{
     color: var(--secondary-color);
-    font-size: 1.5rem;
+    font-size: 1.4rem;
     text-decoration: none;
     margin: 0 0.5rem;
 }
